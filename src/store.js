@@ -12,7 +12,7 @@ export function update(state) {
 export function timeTravel(direction) {
   const forward = direction === 'forward';
   if (forward) {
-    if ((index + 1) !== (Store.size - 1)) {
+    if ((index + 1) < (Store.size)) {
       index += 1;
     }
   }
@@ -32,3 +32,10 @@ export function setInitial(data) {
   Store = Store.push(Immutable.fromJS(data));
   return Store.get(index).toJS();
 }
+
+export function traveler() {
+  return {
+    items: Store.toJS(),
+    index: index
+  }
+};
