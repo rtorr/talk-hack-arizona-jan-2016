@@ -1,0 +1,39 @@
+/**, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.comment-box {
+  width: 200px;
+  display: inline-block;
+  margin: 40px;
+  float: left;
+}
+
+.comment-box textarea {
+  border: 2px solid #ccc;
+  height: 150px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.comment-box button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  background: #D0AE42;
+  border: none;
+  color: #fff;
+}
+
+.comments {
+  display: inline-block;
+  width: 300px;
+  float: left;
+  margin: 40px;
+  padding: 20px;
+}
+
+.comment {
+  border-bottom: 1px solid #ccc;
+}*/
