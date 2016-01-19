@@ -74,6 +74,9 @@ class App extends React.Component {
   // }
   
   render() {
+    
+    // TODO: Add comment length
+    
     const { comment, comments } = this.state;
     return (
       <div className="container">
