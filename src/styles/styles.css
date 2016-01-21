@@ -37,37 +37,3 @@
 .comment {
   border-bottom: 1px solid #ccc;
 }
-
-
-.time-traveler {
-  position: fixed;
-  width: 200px;
-  margin-left: -100px;
-  bottom: 0;
-  right: 0;
-}
-
-.time-traveler img {
-  max-width: 100%;
-}
-
-.time-traveler button {
-  border: 3px solid #000;
-  background: #4A4A4A;
-  font-size: 20px;
-  color: #E6E6E6;
-  cursor: pointer;
-  display: block;
-  width: 100%;
-}
-
-.step {
-  width: 10px;
-  height: 10px;
-  display: inline-block;
-  background: lightseagreen;
-}
-
-.step.active {
-  background: indianred;
-}
